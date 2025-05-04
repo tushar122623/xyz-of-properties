@@ -14,7 +14,7 @@ document.getElementById('enquiryForm').addEventListener('submit', function(e) {
         `New Enquiry:\nName: ${formData.name}\nPhone: ${formData.phone}\nEmail: ${formData.email}\nProperty Interest: ${formData.propertyType}\nMessage: ${formData.message}`
     );
 
-    window.open(`https://wa.me/+918452838905?text=${whatsappMessage}`);
+    window.open(`https://wa.me/+919167308743?text=${whatsappMessage}`);
     this.reset();
     alert('Please complete the message in the opened WhatsApp window');
 });
